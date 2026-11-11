@@ -13,18 +13,18 @@
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
     }
 
-    body {
+   body {
       background-color: #0f172a;
       color: #f8fafc;
       line-height: 1.6;
     }
 
-    a {
+   a {
       text-decoration: none;
       color: inherit;
     }
 
-    /* Navigation */
+   /* Navigation */
     header {
       background-color: #1e293b;
       position: sticky;
@@ -33,7 +33,7 @@
       border-bottom: 1px solid #334155;
     }
 
-    .nav-container {
+   .nav-container {
       max-width: 1200px;
       margin: 0 auto;
       padding: 1rem 2rem;
@@ -41,48 +41,47 @@
       justify-content: space-between;
       align-items: center;
     }
-
-    .logo {
+   .logo {
       font-size: 1.5rem;
       font-weight: 700;
       color: #38bdf8;
     }
 
-    .nav-links {
+   .nav-links {
       display: flex;
       gap: 1.5rem;
       list-style: none;
     }
 
-    .nav-links a:hover {
+  .nav-links a:hover {
       color: #38bdf8;
       transition: color 0.2s;
     }
 
-    /* Hero Section */
+  /* Hero Section */
     .hero {
       text-align: center;
       padding: 5rem 1rem 3rem;
       background: radial-gradient(circle at top, #1e293b 0%, #0f172a 100%);
     }
 
-    .hero h1 {
+  .hero h1 {
       font-size: 2.75rem;
       margin-bottom: 1rem;
     }
 
-    .hero h1 span {
+  .hero h1 span {
       color: #38bdf8;
     }
 
-    .hero p {
+  .hero p {
       color: #94a3b8;
       font-size: 1.15rem;
       max-width: 600px;
       margin: 0 auto 2rem;
     }
 
-    /* Course Filtering Tabs */
+  /* Course Filtering Tabs */
     .controls {
       max-width: 1200px;
       margin: 0 auto 2.5rem;
@@ -93,7 +92,7 @@
       flex-wrap: wrap;
     }
 
-    .filter-btn {
+  .filter-btn {
       background: #1e293b;
       color: #94a3b8;
       border: 1px solid #334155;
@@ -104,32 +103,31 @@
       transition: all 0.2s ease;
     }
 
-    .filter-btn:hover {
+  .filter-btn:hover {
       background: #334155;
       color: #ffffff;
     }
 
-    .filter-btn.active {
+  .filter-btn.active {
       background: #38bdf8;
       color: #0f172a;
       border-color: #38bdf8;
       font-weight: 600;
     }
-
-    /* Course Grid */
+  /* Course Grid */
     .container {
       max-width: 1200px;
       margin: 0 auto;
       padding: 0 1.5rem 5rem;
     }
 
-    .grid {
+  .grid {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
       gap: 2rem;
     }
 
-    .card {
+  .card {
       background: #1e293b;
       border-radius: 12px;
       padding: 1.75rem;
@@ -140,12 +138,12 @@
       transition: transform 0.2s, border-color 0.2s;
     }
 
-    .card:hover {
+   .card:hover {
       transform: translateY(-4px);
       border-color: #38bdf8;
     }
 
-    .badge {
+  .badge {
       display: inline-block;
       font-size: 0.75rem;
       text-transform: uppercase;
@@ -157,28 +155,28 @@
       width: fit-content;
     }
 
-    .badge-design {
+   .badge-design {
       background: rgba(244, 63, 94, 0.15);
       color: #fb7185;
     }
 
-    .badge-dev {
+  .badge-dev {
       background: rgba(56, 189, 248, 0.15);
       color: #38bdf8;
     }
 
-    .card h3 {
+  .card h3 {
       font-size: 1.3rem;
       margin-bottom: 0.5rem;
     }
 
-    .card p {
+  .card p {
       color: #94a3b8;
       font-size: 0.95rem;
       margin-bottom: 1.5rem;
     }
 
-    .card-footer {
+   .card-footer {
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -187,12 +185,12 @@
       margin-top: auto;
     }
 
-    .price {
+   .price {
       font-weight: 700;
       font-size: 1.1rem;
     }
 
-    .enroll-btn {
+  .enroll-btn {
       background: #38bdf8;
       color: #0f172a;
       border: none;
@@ -203,11 +201,11 @@
       transition: opacity 0.2s;
     }
 
-    .enroll-btn:hover {
+  .enroll-btn:hover {
       opacity: 0.9;
     }
-
-    /* Modal */
+    
+  /* Modal */
     .modal-overlay {
       position: fixed;
       inset: 0;
@@ -218,7 +216,7 @@
       z-index: 1000;
     }
 
-    .modal {
+   .modal {
       background: #1e293b;
       padding: 2rem;
       border-radius: 12px;
@@ -228,17 +226,17 @@
       text-align: center;
     }
 
-    .modal h2 {
+  .modal h2 {
       margin-bottom: 0.75rem;
       color: #38bdf8;
     }
 
-    .modal p {
+  .modal p {
       color: #94a3b8;
       margin-bottom: 1.5rem;
     }
 
-    .close-btn {
+  .close-btn {
       background: #334155;
       color: #ffffff;
       border: none;
